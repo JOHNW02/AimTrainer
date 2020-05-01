@@ -10,7 +10,7 @@ import com.badlogic.gdx.utils.TimeUtils
 import com.game.AimTrainer
 import ktx.app.KtxScreen
 
-class GameScreen(val game: AimTrainer) : KtxScreen {
+class GameScreen(val game: AimTrainer) : KtxScreen {//
     // load the images for the droplet & bucket, 64x64 pixels each
     private val redDot = Texture(Gdx.files.internal("C:/Users/John/IdeaProjects/AimTrainer/core/src/com/game/assets/images/red_dot.png"))
     // load the drop sound effect and the rain background music
